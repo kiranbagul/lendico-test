@@ -23,7 +23,7 @@ import java.util.List;
 import static org.springframework.http.ResponseEntity.ok;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/api/v1")
 @Api(tags = "Generate Amortization Schedule API")
 public class ScheduleController {
 

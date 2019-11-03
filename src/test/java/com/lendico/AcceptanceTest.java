@@ -27,7 +27,7 @@ public class AcceptanceTest {
 
     @Test
     public void validateCurrencyConversion() {
-        String url = "http://localhost:" + port + "/generate-plan";
+        String url = "http://localhost:" + port + "/api/v1/generate-plan";
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
         HttpEntity<String> request = new HttpEntity<String>("{\n" +

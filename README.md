@@ -1,7 +1,7 @@
 #### Loan schedule generator : 
 
  - ##### Generate plan
-     Request<br><br> ``POST /api/generate-plan``
+     Request<br><br> ``POST /api/v1/generate-plan``
       <br><br>Response
      ```json
       {
